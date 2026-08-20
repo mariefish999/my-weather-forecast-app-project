@@ -21,6 +21,10 @@ header {
   padding: 0 0 30px 0;
 }
 
+main {
+  padding: 30px;
+}
+
 .search-form-input {
   background: #f9f7fe;
   font-size: 16px;
@@ -96,13 +100,16 @@ header {
 }
 
 .weather-forecast-icon {
-  text-align: center;
-  font-size: 38px;
+  display: block;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
   text-align: center;
   color: #f65282;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
 }
